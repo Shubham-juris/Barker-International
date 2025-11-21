@@ -2,7 +2,7 @@ import React from 'react'
 import AboutHero from '../components/aboutcomponents/AboutHero'
 import { MissionVision } from '../components/aboutcomponents/MissionVision'
 import { WhyChooseUs } from '../components/aboutcomponents/WhyChooseUs'
-import { TeamSection } from '../components/aboutcomponents/TeamSection'
+import { OurCoreValues } from '../components/aboutcomponents/OurCoreValues'
 
 const AboutPage = () => {
   return (
@@ -10,7 +10,7 @@ const AboutPage = () => {
     <AboutHero/>
     <MissionVision/>
     <WhyChooseUs/>
-    <TeamSection/>
+    <OurCoreValues/>
     </>
   )
 }
