@@ -4,10 +4,12 @@ import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import ServicePage from "../pages/ServicePage";
 import ContactPage from "../pages/ContactPage";
+import ScrollToTop from "../pages/ScrollToTop";
 
 const RoutePage = () => {
   return (
     <>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
