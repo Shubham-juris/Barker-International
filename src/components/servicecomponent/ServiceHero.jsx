@@ -10,11 +10,11 @@ export default function AboutHero({
   heroImage = main,
 }) {
   return (
-    <section className="relative w-full min-h-[92vh] flex items-center justify-center overflow-hidden">
+    <section className="relative  w-full min-h-[92vh] flex items-center justify-center overflow-hidden">
 
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 animate-pulse-slow"
+        className="absolute  inset-0 bg-cover bg-center bg-no-repeat scale-105 animate-pulse-slow"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
 
@@ -22,7 +22,7 @@ export default function AboutHero({
       <div className="absolute inset-0 bg-black/70 backdrop-blur-[2px]" />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 lg:px-10 text-center text-white max-w-4xl">
+      <div className="relative mt-25 z-10 container mx-auto px-6 lg:px-10 text-center text-white max-w-4xl">
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }}

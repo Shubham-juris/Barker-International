@@ -14,7 +14,7 @@ export default function AboutHero({
   };
 
   return (
-    <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full mt-20 min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
