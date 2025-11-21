@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/navbar/logo.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,9 +25,9 @@ export default function Navbar() {
           onClick={closeMenu}
         >
           <img
-            src="/logo.png" 
+            src={logo} 
             alt="Barker International Logo"
-            className="h-12 w-12 rounded-full object-cover border border-gray-200"
+            className="h-14 w-20 object-cover border border-gray-200"
           />
           <span className="text-2xl font-bold text-gray-800">
             Barker <span className="text-blue-600">International</span>
