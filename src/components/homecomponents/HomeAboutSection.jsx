@@ -5,9 +5,9 @@ import aboutImg from "../../assets/home/about.png";
 
 export default function HomeAboutSection({
   image = aboutImg,
-  title = "About Barker International Trucking",
-  description = 
-    "We provide reliable trucking and logistics solutions built on safety, trust, and consistent delivery performance. Our team is committed to ensuring every shipment reaches its destination efficiently and on time.",
+  title = "About Barker International – Film Production & Advertising Agency",
+  description =
+    "Barker International specializes in cinematic film production, creative direction, brand storytelling, and high-impact advertising campaigns. Our team brings together directors, editors, designers, and marketing experts to craft visuals and strategies that elevate brands and captivate audiences.",
   buttonLabel = "Learn More",
   buttonLink = "/about",
 }) {
@@ -23,8 +23,8 @@ export default function HomeAboutSection({
           className="overflow-hidden rounded-2xl shadow-lg"
         >
           <img
-            src={image}
-            alt="About Barker International Trucking"
+            src="{image}"
+            alt="About Barker International Film Production Agency"
             className="w-full h-full object-cover"
           />
         </motion.div>

@@ -1,52 +1,69 @@
 import React from "react";
-import { Truck, Route, Warehouse } from "lucide-react"; 
-import img from "../../assets/home/img.jpg"
-import img1 from "../../assets/home/img1.webp"
-import img2 from "../../assets/home/img2.jpeg"
+import { Camera, Clapperboard, Video, Megaphone } from "lucide-react";
+import film1 from "../../assets/home/img.jpg";
+import film2 from "../../assets/home/img1.webp";
+import film3 from "../../assets/home/img2.jpeg";
 
 export const Services = () => {
   const services = [
     {
       id: 1,
-      title: "Long-Haul Freight Transport",
+      title: "Film & Video Production",
       desc:
-        "Reliable long-distance trucking designed for heavy loads, scheduled routes, and time-sensitive shipments. Our fleet is equipped for continuous operations with professional, licensed drivers.",
-      icon: <Truck className="w-10 h-10 text-blue-600" />,
-      img : img ,
+        "Complete film production services including cinematography, directing, shooting, lighting setup, and on-set production management.",
+      icon: <Camera className="w-10 h-10 text-blue-600" />,
+      img: film1,
     },
     {
       id: 2,
-      title: "Regional & Short-Haul Delivery",
+      title: "Ad Commercials & Brand Promotion",
       desc:
-        "Fast and flexible short-haul freight service for businesses needing frequent deliveries, distribution support, and consistent daily or weekly transport cycles.",
-      icon: <Route className="w-10 h-10 text-green-600" />,
-      img: img1,
+        "High-quality TV commercials, digital ads, corporate ads, and targeted promotional video content for brands.",
+      icon: <Megaphone className="w-10 h-10 text-green-600" />,
+      img: film2,
     },
     {
       id: 3,
-      title: "Logistics, Storage & Handling",
+      title: "Post-Production & Editing Studio",
       desc:
-        "End-to-end logistics support including storage, consolidation, dispatch coordination, and freight handling to keep supply chains efficient and streamlined.",
-      icon: <Warehouse className="w-10 h-10 text-orange-600" />,
-      img : img2
+        "Professional editing, color grading, VFX, sound design, and full post-production support for film projects.",
+      icon: <Clapperboard className="w-10 h-10 text-orange-600" />,
+      img: film3,
+    },
+    {
+      id: 4,
+      title: "Digital Media & Content Creation",
+      desc:
+        "Creative content development for social media campaigns, short videos, reels, product shoots, and branding visuals.",
+      icon: <Video className="w-10 h-10 text-purple-600" />,
+      img: film1,
     },
   ];
 
   return (
     <section id="services" className="mt-20 py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        
-        <h3 className="text-3xl font-bold text-gray-900">What We Offer</h3>
+
+        <h3 className="text-3xl font-bold text-gray-900">
+          Our Film & Advertising Services
+        </h3>
         <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-          Professional trucking and logistics solutions built for commercial freight needs.
+          Professional film production, advertisement creation, and digital media services tailored for modern brands.
         </p>
 
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
           {services.map((s) => (
             <div
               key={s.id}
-              className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-left border border-gray-100 group"
+              className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group"
             >
+              {/* Image */}
+              <img
+                src="{s.img}"
+                alt="service-img"
+                className="w-full h-40 object-cover rounded-xl mb-5"
+              />
+
               {/* Icon */}
               <div className="mb-4">{s.icon}</div>
 

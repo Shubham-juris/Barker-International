@@ -1,17 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import heroBg from "../../assets/home/main.jpg"; 
+import heroBg from "../../assets/home/main.jpg";
 
 export default function HomeHero({
-  title = "Barker International Trucking",
-  subtitle = "Reliable, safe, and on-time trucking and logistics solutions for businesses of all sizes.",
+  title = "Barker International – Film Production & Advertising Agency",
+  subtitle = "Creative storytelling, high-quality film production, and impactful advertising solutions for brands and businesses.",
   primaryCta = { label: "Our Services", href: "/services" },
   secondaryCta = { label: "Contact Us", href: "/contact" },
-  heroImage = heroBg, 
+  heroImage = heroBg,
 }) {
   const backgroundStyle = {
-    backgroundImage: `url(${heroImage})`,
+    backgroundImage: `url(${heroImage}) "`,
   };
 
   return (
@@ -28,9 +28,9 @@ export default function HomeHero({
       />
 
       {/* Overlay */}
-      <div className="absolute  inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
 
-      <div className="relative z-10 mt-25 container mx-auto px-6 lg:px-8">
+      <div className="relative z-10 container mx-auto px-6 lg:px-8">
         <div className="max-w-4xl text-white">
           <motion.h1
             initial={{ opacity: 0, y: 12 }}
@@ -79,15 +79,9 @@ export default function HomeHero({
             transition={{ delay: 0.45, duration: 0.6 }}
             className="mt-8 flex flex-wrap gap-4 text-sm text-neutral-200"
           >
-            <li className="flex items-center gap-2">
-              • Years of proven trucking expertise
-            </li>
-            <li className="flex items-center gap-2">
-              • Thousands of successful freight deliveries
-            </li>
-            <li className="flex items-center gap-2">
-              • Trusted by businesses everywhere
-            </li>
+            <li className="flex items-center gap-2">• Professional Film Production Expertise</li>
+            <li className="flex items-center gap-2">• Creative Advertising Campaigns Delivered</li>
+            <li className="flex items-center gap-2">• Trusted by Brands Across Canada</li>
           </motion.ul>
         </div>
       </div>

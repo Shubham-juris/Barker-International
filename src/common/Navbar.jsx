@@ -25,7 +25,7 @@ export default function Navbar() {
           onClick={closeMenu}
         >
           <img
-            src={logo} 
+            src="{logo} "
             alt="Barker International Logo"
             className="h-14 w-20 object-cover border border-gray-200"
           />

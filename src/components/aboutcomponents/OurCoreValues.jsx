@@ -1,27 +1,27 @@
 import React from "react";
-import { ShieldCheck, Clock, BadgeCheck, Sparkles } from "lucide-react";
+import { Camera, Palette, Users, Sparkles } from "lucide-react";
 
 export function OurCoreValues() {
   const values = [
     {
-      icon: <ShieldCheck className="w-12 h-12 text-blue-700" />,
-      title: "Safety First",
-      desc: "Every operation is executed with strict safety protocols to protect drivers, clients, and freight.",
+      icon: <Camera className="w-12 h-12 text-blue-700" />,
+      title: "Creative Excellence",
+      desc: "We craft visually compelling films, ads, and brand stories with cinematic precision and artistic depth.",
     },
     {
-      icon: <Clock className="w-12 h-12 text-green-700" />,
-      title: "Timely Delivery",
-      desc: "Punctuality and reliability are the foundation of our logistics service.",
+      icon: <Palette className="w-12 h-12 text-green-700" />,
+      title: "Originality",
+      desc: "Every project we create is built on fresh ideas, unique concepts, and impactful visual communication.",
     },
     {
-      icon: <BadgeCheck className="w-12 h-12 text-purple-700" />,
-      title: "Professionalism",
-      desc: "We maintain high standards in communication, handling, and delivery.",
+      icon: <Users className="w-12 h-12 text-purple-700" />,
+      title: "Collaboration",
+      desc: "We work closely with clients, teams, and creators to bring visions to life with clarity and shared creativity.",
     },
     {
       icon: <Sparkles className="w-12 h-12 text-orange-700" />,
       title: "Innovation",
-      desc: "We continuously upgrade systems, tools, and operational methods for better efficiency.",
+      desc: "We use advanced production tools, modern editing workflows, and emerging media trends to deliver standout content.",
     },
   ];
 

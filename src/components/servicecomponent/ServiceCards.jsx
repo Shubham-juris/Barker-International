@@ -1,43 +1,50 @@
 import React from "react";
-import { Truck, Package, Snowflake, Clock, ShieldCheck, Route } from "lucide-react";
+import {
+  Video,
+  Camera,
+  MonitorPlay,
+  PenTool,
+  Brush,
+  Megaphone,
+} from "lucide-react";
 
 export function ServiceCards() {
   const services = [
     {
-      title: "Full Truckload (FTL)",
+      title: "Film Production",
       desc:
-        "Direct, high-capacity freight transport for businesses needing entire truck space with maximum speed and security.",
-      icon: <Truck className="w-10 h-10 text-blue-600" />,
+        "Complete film production services including scripting, direction, shooting, and post-production.",
+      icon: <Video className="w-10 h-10 text-blue-600" />,
     },
     {
-      title: "Less Than Truckload (LTL)",
+      title: "Commercial & Advertising Shoots",
       desc:
-        "Cost-efficient freight shipping for smaller loads, optimized for shared trailer space and frequent deliveries.",
-      icon: <Package className="w-10 h-10 text-green-600" />,
+        "High-quality ad films, brand commercials, and promotional video shoots for businesses.",
+      icon: <Camera className="w-10 h-10 text-green-600" />,
     },
     {
-      title: "Refrigerated Transport",
+      title: "Post-Production & Editing",
       desc:
-        "Temperature-controlled freight solutions for perishable, medical, and sensitive goods requiring consistent cooling.",
-      icon: <Snowflake className="w-10 h-10 text-cyan-600" />,
+        "Professional video editing, sound design, color grading, and visual refinement for all formats.",
+      icon: <MonitorPlay className="w-10 h-10 text-purple-600" />,
     },
     {
-      title: "Multi-Region Freight Transport",
+      title: "Creative Concept Development",
       desc:
-        "Reliable freight movement across multiple regions with compliance, safety standards, and stable transit operations.",
-      icon: <Route className="w-10 h-10 text-purple-600" />,
+        "Creative strategy, scriptwriting, storyboards, and concept planning for film & advertising.",
+      icon: <PenTool className="w-10 h-10 text-orange-600" />,
     },
     {
-      title: "Expedited Delivery",
+      title: "Branding & Visual Designing",
       desc:
-        "Priority trucking with fast response times for urgent freight that cannot afford delays.",
-      icon: <Clock className="w-10 h-10 text-orange-600" />,
+        "Complete brand identity design, visual content creation, and creative asset development.",
+      icon: <Brush className="w-10 h-10 text-red-600" />,
     },
     {
-      title: "Hazmat Transport",
+      title: "Digital Marketing Campaigns",
       desc:
-        "Certified handling and transport of hazardous materials with strict safety protocols and compliance procedures.",
-      icon: <ShieldCheck className="w-10 h-10 text-red-600" />,
+        "Promotional campaigns, social media ads, and creative marketing solutions for brands.",
+      icon: <Megaphone className="w-10 h-10 text-teal-600" />,
     },
   ];
 

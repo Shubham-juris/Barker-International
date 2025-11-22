@@ -8,15 +8,14 @@ export function MissionVision() {
       <div className="bg-white shadow-lg rounded-2xl p-8 border border-gray-100">
         <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Mission</h2>
         <p className="text-gray-700 leading-relaxed text-lg">
-          Our mission is to deliver dependable trucking and logistics solutions 
-          that keep supply chains moving without delays. We aim to provide safe 
-          transportation, transparent communication, professional drivers, and 
-          a modern fleet built to handle demanding commercial freight.  
+          Our mission is to create impactful visual stories through world-class
+          film production and creative advertising. We aim to help brands,
+          businesses, and creators express their ideas with cinematic precision,
+          high-quality visuals, and strong emotional engagement.
           <br /><br />
-          Every shipment—small or heavy, short-distance or long-route—is handled 
-          with precision, accountability, and a commitment to meeting deadlines. 
-          We focus on reducing downtime, improving freight efficiency, and 
-          supporting businesses with consistent, high-quality transport service.
+          From commercials and corporate videos to creative campaigns and digital
+          ads, we focus on delivering content that inspires audiences, elevates
+          brand identity, and leaves a lasting impression.
         </p>
       </div>
 
@@ -24,15 +23,14 @@ export function MissionVision() {
       <div className="bg-white shadow-lg rounded-2xl p-8 border border-gray-100">
         <h2 className="text-3xl font-bold mb-4 text-gray-900">Our Vision</h2>
         <p className="text-gray-700 leading-relaxed text-lg">
-          Our vision is to become a leading name in the trucking and logistics 
-          industry—recognized for reliability, innovation, and customer trust.  
-          We strive to build a fleet powered by advanced technology, 
-          real-time tracking, optimized routing, and top-tier safety standards.  
+          Our vision is to become a globally recognized film production and
+          advertising agency known for creativity, innovation, and excellence in
+          visual storytelling.
           <br /><br />
-          We aim to create a logistics network that supports businesses with 
-          faster deliveries, improved freight management, and scalable transport 
-          solutions designed for long-term growth. Every mile we drive moves us 
-          closer to setting new standards in professional trucking services.
+          We aim to push creative boundaries by adopting advanced production
+          technologies, cinematic techniques, and strategic brand communication
+          methods—helping brands connect with their audiences in the most
+          powerful way possible.
         </p>
       </div>
 

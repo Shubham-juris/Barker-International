@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 import main from "../../assets/about/main.webp"; 
 
 export default function AboutHero({
-  title = "About Barker International Trucking",
-  subtitle = "Reliable, safe, and on-time freight transportation you can trust.",
+  title = "About Barker International",
+  subtitle = "Creative. Cinematic. Impactful Visual Storytelling.",
   description =
-    "Barker International is a professional trucking and logistics company offering dependable freight solutions for businesses of all sizes. We handle long-haul transport, dedicated trucking routes, LTL/FTL shipments, and complete logistics support to keep supply chains moving smoothly.",
-  heroImage = main, 
+    "Barker International is a Film Production & Advertising Agency specializing in cinematic video production, brand storytelling, commercials, digital ads, photography, and creative media solutions. Our team transforms ideas into powerful visual experiences using advanced production technology and industry-leading techniques.",
+  heroImage = main,
 }) {
   const backgroundStyle = {
-    backgroundImage: `url(${heroImage})`,
+    backgroundImage: `url(${heroImage})"`,
   };
 
   return (

@@ -1,32 +1,37 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ClipboardList, Truck, SatelliteDish, CheckCircle } from "lucide-react";
+import {
+  Camera,
+  PenTool,
+  Clapperboard,
+  Video,
+} from "lucide-react";
 
 export function HowWeWork() {
   const steps = [
     {
-      title: "Request & Route Planning",
+      title: "Pre-Production Planning",
       desc:
-        "We review shipment details, load type, weight, and timelines. Our logistics team prepares an optimized route to ensure safe and efficient freight movement.",
-      icon: <ClipboardList className="w-10 h-10 text-blue-600 mx-auto" />,
+        "We begin with concept development, scriptwriting, storyboarding, casting, and location scouting. Our creative team ensures every detail is planned with precision.",
+      icon: <PenTool className="w-10 h-10 text-blue-600 mx-auto" />,
     },
     {
-      title: "Dispatch & Secure Loading",
+      title: "Production & Filming",
       desc:
-        "A dedicated truck is assigned, drivers briefed, and cargo loaded using proper safety procedures. Every load is verified before departure.",
-      icon: <Truck className="w-10 h-10 text-green-600 mx-auto" />,
+        "Our directors, cinematographers, and crew capture high-quality footage using professional-grade equipment to bring your vision to life.",
+      icon: <Camera className="w-10 h-10 text-green-600 mx-auto" />,
     },
     {
-      title: "Live Tracking & Updates",
+      title: "Post-Production Editing",
       desc:
-        "Shipments are monitored in real-time through our tracking systems. Clients receive status updates, location reports, and ETA notifications throughout transit.",
-      icon: <SatelliteDish className="w-10 h-10 text-orange-600 mx-auto" />,
+        "We refine every shot through editing, color grading, sound design, motion graphics, and VFX to create a polished final product.",
+      icon: <Clapperboard className="w-10 h-10 text-orange-600 mx-auto" />,
     },
     {
-      title: "Delivery & Confirmation",
+      title: "Final Delivery & Promotion",
       desc:
-        "Cargo is delivered on schedule with a full inspection and confirmation. Proof of delivery is shared instantly for complete transparency.",
-      icon: <CheckCircle className="w-10 h-10 text-purple-600 mx-auto" />,
+        "Your film, commercial, or creative content is delivered in full quality with optional marketing, ad placement, and social media campaign support.",
+      icon: <Video className="w-10 h-10 text-purple-600 mx-auto" />,
     },
   ];
 

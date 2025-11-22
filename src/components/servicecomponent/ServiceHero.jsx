@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 import main from "../../assets/services/main.jpg";
 
 export default function AboutHero({
-  title = "About Our Trucking & Logistics Company",
-  subtitle = "Driven by safety, reliability, and precision in every mile.",
+  title = "About Our Film Production & Advertising Agency",
+  subtitle = "Crafting impactful visuals and creative stories that inspire audiences.",
   description =
-    "We are a performance-driven trucking and logistics company specializing in long-haul freight, dedicated routes, and high-efficiency supply chain transport. With a modern fleet, expert drivers, and advanced tracking systems, we deliver consistent, secure, and on-time freight movement for businesses of all scales.",
+    "We are a full-service film production and advertising agency specializing in cinematic video shoots, brand commercials, digital campaigns, and visual storytelling. With creative directors, advanced equipment, and a passion for innovation, we bring ideas to life with precision, professionalism, and artistic excellence.",
   heroImage = main,
 }) {
   return (
-    <section className="relative  w-full min-h-[92vh] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full min-h-[92vh] flex items-center justify-center overflow-hidden">
 
       {/* Background Image */}
       <div
-        className="absolute  inset-0 bg-cover bg-center bg-no-repeat scale-105 animate-pulse-slow"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 animate-pulse-slow"
+        style={{ backgroundImage: `url(${heroImage})"` }}
       />
 
       {/* Dark Overlay */}

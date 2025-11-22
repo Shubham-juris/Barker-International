@@ -1,49 +1,49 @@
 import React from "react";
-import { ShieldCheck, Headphones, Users, Truck, Timer, BarChart3 } from "lucide-react";
+import { Camera, Film, Sparkles, PenTool, Users, MonitorPlay } from "lucide-react";
 
 export function WhyChooseUs() {
   const points = [
     {
       id: 1,
-      title: "Reliable & On-Time Delivery",
+      title: "High-Quality Cinematic Production",
       desc:
-        "We operate with strict scheduling, real-time tracking, and GPS-guided routing to ensure freight arrives safely and on time—every time.",
-      icon: <Timer className="w-12 h-12 text-blue-600" />,
+        "We deliver premium-grade film production with professional lighting, direction, and editing that elevates every project.",
+      icon: <Camera className="w-12 h-12 text-blue-600" />,
     },
     {
       id: 2,
-      title: "24/7 Customer Support",
+      title: "Creative Concept & Story Development",
       desc:
-        "Our support and dispatch team is available around the clock to provide updates, handle requests, and assist with live shipment tracking.",
-      icon: <Headphones className="w-12 h-12 text-green-600" />,
+        "From scripting to storyboarding, we turn ideas into powerful visual narratives that connect emotionally with audiences.",
+      icon: <PenTool className="w-12 h-12 text-green-600" />,
     },
     {
       id: 3,
-      title: "Experienced Drivers",
+      title: "Skilled & Professional Team",
       desc:
-        "Our professional drivers are trained, certified, and experienced in handling long-haul, heavy-duty, and time-sensitive commercial freight.",
+        "Our team includes experienced directors, editors, designers, and media specialists who bring creativity and expertise to every project.",
       icon: <Users className="w-12 h-12 text-orange-600" />,
     },
     {
       id: 4,
-      title: "Modern & Well-Maintained Fleet",
+      title: "Advanced Filming & Editing Technology",
       desc:
-        "We operate a fleet of advanced trucks equipped with safety technology, fuel-efficient engines, and high-performance hauling capability.",
-      icon: <Truck className="w-12 h-12 text-red-600" />,
+        "We use modern cameras, drones, studio equipment, and advanced editing tools to achieve sharp, polished, and high-impact visuals.",
+      icon: <MonitorPlay className="w-12 h-12 text-red-600" />,
     },
     {
       id: 5,
-      title: "Safety-First Operations",
+      title: "Innovative Advertising Solutions",
       desc:
-        "From vehicle inspections to load security, we follow strict safety standards to protect your freight and ensure risk-free transport.",
-      icon: <ShieldCheck className="w-12 h-12 text-purple-600" />,
+        "We craft marketing-focused content designed to boost brand visibility, audience engagement, and business growth.",
+      icon: <Sparkles className="w-12 h-12 text-purple-600" />,
     },
     {
       id: 6,
-      title: "Optimized Logistics Planning",
+      title: "End-to-End Production Services",
       desc:
-        "By using route optimization, digital logs, and efficient dispatch coordination, we reduce delays, fuel costs, and operational downtime.",
-      icon: <BarChart3 className="w-12 h-12 text-teal-600" />,
+        "From pre-production planning to final delivery, we handle every detail to ensure a smooth, efficient, and professional experience.",
+      icon: <Film className="w-12 h-12 text-teal-600" />,
     },
   ];
 
@@ -52,7 +52,7 @@ export function WhyChooseUs() {
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-extrabold text-gray-900">Why Choose Us</h2>
         <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-          Professional trucking and logistics built on reliability, safety, and consistent performance.
+          Your trusted creative partner for professional film production and impactful advertising.
         </p>
 
         <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">

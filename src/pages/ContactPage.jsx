@@ -7,7 +7,7 @@ export default function ContactPage({
   heroImage = main,
 }) {
   const bgStyle = {
-    backgroundImage: `url(${heroImage})`,
+    backgroundImage: `url(${heroImage})"`,
   };
 
   return (
@@ -36,12 +36,26 @@ export default function ContactPage({
               <Mail className="text-blue-400" size={20} /> info@barkerinternational.com
             </li>
             <li className="flex items-center gap-3">
-              <Phone className="text-blue-400" size={20} /> +1 (800) 234-5678
+              <Phone className="text-blue-400" size={20} /> +1 (800) 000000
             </li>
             <li className="flex items-center gap-3">
-              <MapPin className="text-blue-400" size={20} /> Our main office & service locations
+              <MapPin className="text-blue-400" size={20} /> Slave Lake, AB
             </li>
           </ul>
+
+          {/* Embedded Map */}
+          <div className="mt-6 w-full rounded-xl overflow-hidden shadow-lg border border-white/20">
+            <iframe
+              title="location-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5035.246894833615!2d-114.779!3d55.285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a900bdfe2267e1%3A0xdea0fba83e6e8bf8!2sSlave%20Lake%2C%20AB!5e0!3m2!1sen!2sca!4v1732199999999"
+              width="100%"
+              height="220"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </motion.div>
 
         {/* Right side - Contact Form */}
@@ -70,7 +84,7 @@ export default function ContactPage({
               className="w-full bg-white/20 text-white placeholder:text-neutral-300 p-3 rounded-lg"
             />
 
-            {/* Button changed to blue */}
+            {/* Blue Button */}
             <button
               type="submit"
               className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 mt-2 rounded-xl shadow-lg transition"
