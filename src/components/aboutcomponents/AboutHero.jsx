@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import main from "../../assets/about/main.webp"; 
+import main from "../../assets/about/about.png"; 
 
 export default function AboutHero({
   title = "About Barker International",
@@ -10,7 +10,7 @@ export default function AboutHero({
   heroImage = main,
 }) {
   const backgroundStyle = {
-    backgroundImage: `url(${heroImage})"`,
+    backgroundImage: `url(${heroImage})`,
   };
 
   return (

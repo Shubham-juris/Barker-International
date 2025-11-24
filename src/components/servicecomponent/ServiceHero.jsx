@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import main from "../../assets/services/main.jpg";
+import main from "../../assets/services/main1.jpeg";
 
 export default function AboutHero({
   title = "About Our Film Production & Advertising Agency",
@@ -15,7 +15,7 @@ export default function AboutHero({
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 animate-pulse-slow"
-        style={{ backgroundImage: `url(${heroImage})"` }}
+        style={{ backgroundImage: `url(${heroImage})` }}
       />
 
       {/* Dark Overlay */}

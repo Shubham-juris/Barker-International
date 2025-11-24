@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import heroBg from "../../assets/home/main.jpg";
+import heroBg from "../../assets/home/home.png";
 
 export default function HomeHero({
   title = "Barker International – Film Production & Advertising Agency",
@@ -11,7 +11,7 @@ export default function HomeHero({
   heroImage = heroBg,
 }) {
   const backgroundStyle = {
-    backgroundImage: `url(${heroImage}) "`,
+    backgroundImage: `url(${heroImage}) `,
   };
 
   return (
