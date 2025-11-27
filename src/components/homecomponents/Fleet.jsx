@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import img from "../../assets/home/img.jpg";
-import img1 from "../../assets/home/img1.webp";
-import img2 from "../../assets/home/img2.jpeg";
+import img from "../../assets/home/fleet1.jpeg";
+import img1 from "../../assets/home/fleet2.avif";
+import img2 from "../../assets/home/fleet3.webp";
 
 export const Fleet = () => {
   const equipment = [
@@ -46,7 +46,7 @@ export const Fleet = () => {
               {/* Image */}
               <div className="overflow-hidden">
                 <img
-                  src="{v.img}"
+                  src={v.img}
                   alt={v.name}
                   className="w-full h-48 object-cover group-hover:scale-105 transition duration-500"
                 />

@@ -11,7 +11,7 @@ export default function HomeHero({
   heroImage = heroBg,
 }) {
   const backgroundStyle = {
-    backgroundImage: `url(${heroImage}) `,
+    backgroundImage: `url(${heroImage})`,
   };
 
   return (

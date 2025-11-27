@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
-import main from "../assets/contact/main.jpg"; // default image
+import main from "../assets/contact/main1.webp";
 
 export default function ContactPage({
   heroImage = main,
 }) {
   const bgStyle = {
-    backgroundImage: `url(${heroImage})"`,
+    backgroundImage: `url(${heroImage})`,
   };
 
   return (

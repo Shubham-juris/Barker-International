@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import aboutImg from "../../assets/home/about.png";
+import aboutImg from "../../assets/home/about1.jpg";
 
 export default function HomeAboutSection({
   image = aboutImg,
@@ -23,7 +23,7 @@ export default function HomeAboutSection({
           className="overflow-hidden rounded-2xl shadow-lg"
         >
           <img
-            src="{image}"
+            src={image}
             alt="About Barker International Film Production Agency"
             className="w-full h-full object-cover"
           />

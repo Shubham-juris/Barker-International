@@ -1,8 +1,9 @@
 import React from "react";
 import { Camera, Clapperboard, Video, Megaphone } from "lucide-react";
-import film1 from "../../assets/home/img.jpg";
-import film2 from "../../assets/home/img1.webp";
-import film3 from "../../assets/home/img2.jpeg";
+import film1 from "../../assets/home/main1.jpeg";
+import film2 from "../../assets/home/main2.jpg";
+import film3 from "../../assets/home/main3.jpg";
+import film4 from "../../assets/home/main4.jpeg";
 
 export const Services = () => {
   const services = [
@@ -36,17 +37,14 @@ export const Services = () => {
       desc:
         "Creative content development for social media campaigns, short videos, reels, product shoots, and branding visuals.",
       icon: <Video className="w-10 h-10 text-purple-600" />,
-      img: film1,
+      img: film4,
     },
   ];
 
   return (
     <section id="services" className="mt-20 py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 text-center">
-
-        <h3 className="text-3xl font-bold text-gray-900">
-          Our Film & Advertising Services
-        </h3>
+        <h3 className="text-3xl font-bold text-gray-900">Our Film & Advertising Services</h3>
         <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
           Professional film production, advertisement creation, and digital media services tailored for modern brands.
         </p>
@@ -57,25 +55,19 @@ export const Services = () => {
               key={s.id}
               className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 border border-gray-100 group"
             >
-              {/* Image */}
               <img
-                src="{s.img}"
+                src={s.img}
                 alt="service-img"
                 className="w-full h-40 object-cover rounded-xl mb-5"
               />
 
-              {/* Icon */}
               <div className="mb-4">{s.icon}</div>
 
-              {/* Title */}
               <div className="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition">
                 {s.title}
               </div>
 
-              {/* Description */}
-              <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-                {s.desc}
-              </p>
+              <p className="mt-3 text-gray-600 leading-relaxed text-sm">{s.desc}</p>
             </div>
           ))}
         </div>
