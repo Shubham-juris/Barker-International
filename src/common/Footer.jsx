@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Instagram, Mail, Phone, MapPin, Youtube } from 'lucide-react'
+import { Facebook, Instagram, Mail, Phone, MapPin, Youtube , Twitter } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -49,16 +49,16 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
           <div className="flex items-center gap-4">
-            <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-green-500 transition">
+            <a href="https://www.facebook.com/barkerinternational" className="p-2 rounded-full bg-white/10 hover:bg-green-500 transition">
               <Facebook size={18} />
             </a>
 
-            <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-green-500 transition">
+            <a href="https://www.instagram.com/barkerinternational/" className="p-2 rounded-full bg-white/10 hover:bg-green-500 transition">
               <Instagram size={18} />
             </a>
 
-            <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-green-500 transition">
-              <Youtube size={18} />
+            <a href="https://x.com/internatio33301" className="p-2 rounded-full bg-white/10 hover:bg-green-500 transition">
+              <Twitter size={18} />
             </a>
           </div>
         </div>
